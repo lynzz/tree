@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="../src/jquery.js"></script>
+	<script type="text/javascript" src="../src/rui.js"></script>
+	<script type="text/javascript" src="../src/tree.js"></script>
+</head>
+<body>
+	<div id="J_Tree"></div>
+	<script type="text/javascript">
+		var tree1 = $('#J_Tree').tree().tree('say');
+		var tree = new rui.Tree('#J_Tree');
+		//tree.say();
+		console.log($('#J_Tree').data('tree'))
+		//console.log(tree1.tree('say'))
+	</script>
+</body>
+</html>
